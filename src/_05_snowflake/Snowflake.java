@@ -12,7 +12,7 @@ public class Snowflake {
 	public static void main(String[] args) {
 
 		// #1. Make a new Robot
-
+Robot e = new Robot();
 
 		// #2. Set your robot’s position to x=300 and y=300
 
