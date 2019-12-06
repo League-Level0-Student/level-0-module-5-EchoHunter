@@ -11,8 +11,8 @@ public class GoofyNames {
 	static String goof ;
 	static String uppercase; 
 	static String Letter;
-	static int i =0;
-	static int q =1;
+	static int i =1;
+	static int q =2;
 	public static void main(String[] args) {
 	goofyName =	  JOptionPane.showInputDialog("What is your name?");
 		
@@ -45,7 +45,7 @@ if(i % 2 == 0) {
 }
 
 else {
- goofyName = goofyName + Letter;
+goofyName = goofyName + Letter;
 i++;
 q++;
 }
