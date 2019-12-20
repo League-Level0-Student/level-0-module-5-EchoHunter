@@ -43,10 +43,13 @@ public static void main(String[] args) {
 		for (int t = 0; t < 3; t++) {
 			System.out.println(w+ " "+t);
 		}
-		for (int s = 0; s < 3; s++) {
-			for (int h = 1; h < 3; h++) {
-				for (int t = 2; t < 3; t++) {
+		for (int s = 1; s < 3;) {
+			for (int h = 2; h < 4;) {
+				for (int t = 3; t < 5;) {
 					System.out.println(s + " "+h+" "+t);
+					s++;
+					h++;
+					t++;
 				}
 			}
 		}
