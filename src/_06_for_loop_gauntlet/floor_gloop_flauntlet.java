@@ -43,17 +43,71 @@ public static void main(String[] args) {
 		for (int t = 0; t < 3; t++) {
 			System.out.println(w+ " "+t);
 		}
-		for (int s = 1; s < 3;) {
-			for (int h = 2; h < 4;) {
-				for (int t = 3; t < 5;) {
-					System.out.println(s + " "+h+" "+t);
-					s++;
-					h++;
-					t++;
+		int c = 2;
+		int d = 3;
+			for (int k = 1; k < 8; k=k+3) {
+				System.out.println(k + " " + c + " " +d);
+					c= c+3;
+					d=d+3;
+				
+			}	
+			
+			int c1 = 2;
+			int d1 = 3;
+			int c2 = 4;
+			int d2 = 5;
+			int c3 = 6;
+			int d3 = 7;
+			int c4 = 8;
+			int d4 = 9;
+			int c5 = 10;
+	
+			
+				for (int k1 = 1; k1 < 101 ; k1=k1+10) {
+					System.out.println(k1 + " " + c1 + " " +d1+ " "  + c2 + " " +d2+" "+ c3 + " " +d3+ " " + c4 + " " +d4+ " " + c5);
+						c1= c1+10;
+						d1=d1+10;
+						c2= c2+10;
+						d2=d2+10;
+						c3= c3+10;
+						d3=d3+10;
+						c4= c4+10;
+						d4 = d4+10;
+						c5 = c5+10;
+						
+						
+					
+				}	
+				for (int g1 = 0; g1 < 6; g1++) {
+					if (g1 == (1)) {
+						System.out.println("*");
+					}
+					
+					else if (g1 ==(2)) {
+						System.out.println("**");
+					}
+					else if (g1 ==(3)) {
+						System.out.println("***");
+					}
+					else if (g1 ==(4)) {
+						System.out.println("****");
+					}
+					else if (g1 ==(5)) {
+						System.out.println("*****");
+					}
+					else if (g1 ==(6)) {
+						System.out.println("******");
+					}
+					
+				}
+				for (int t1 = 0; t1 > -100; t1--) {
+				
+					System.out.println(t1+100);
 				}
 			}
+			}
 		}
-	}
-}
+	
 
-}
+
+
