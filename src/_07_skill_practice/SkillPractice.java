@@ -62,7 +62,7 @@ System.out.println(rand);
 int rand1 =random1.nextInt(10);
 System.out.println(rand1);
 
-int rand = random.nextInt();
+
 // Using a pop-up, tell the user the difference between the numbers // Hint: use subtraction
 
 JOptionPane.showMessageDialog(null, rand-rand1  + "is the difference between the two numbers");
@@ -88,7 +88,7 @@ else {
 
 // Create a variable - cars - and initialize it to the number of cars your family has. // If there are 0 cars, use a pop-up to display, "I bet you use public transportation."
 int cars = 8;
-if
+
 
 
 // If there is 1 car, use a pop-up to display the make/model of the car
@@ -96,17 +96,18 @@ if
 
 
 // If there is more than 1 car, use a pop-up to display how many wheels the // cars have between them.
-
+cars = cars * 4;
+JOptionPane.showMessageDialog(null, "your cars have" + cars+" wheels");
 
 
 }
 
 void skill5() { // In a pop-up, ask the user for the name of their school
-
+String school = JOptionPane.showInputDialog("what is the name of your school");
 
 
 // In another pop-up, tell the user, that their school is a fantastic school. // You must include the name of the school in the message.
-
+JOptionPane.showMessageDialog(null, "your school is awesome! i've always wanted to go to " +  school);
 
 
 }
